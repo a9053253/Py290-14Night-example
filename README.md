@@ -1,5 +1,7 @@
 # Py290-14Night-example
+
 Python@NTU
+
 註解'''  '''
 官方要求空白鍵縮排要一致
 
