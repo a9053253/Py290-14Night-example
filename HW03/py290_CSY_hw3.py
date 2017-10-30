@@ -1,29 +1,4 @@
 #-*-coding:UTF-8 -*-
-# For迴圈n*n乘法
-'''
-N_multiplied_N = int(input('for迴圈請輸入小於10的數字:'))
-if N_multiplied_N <10:
-    for i in range(1, N_multiplied_N + 1, +1):
-    
-        for j in range(1, N_multiplied_N + 1, +1):
-            print(i,'*',j,'=',i*j)
-#N_multiplied_N_while = int(input('暫停'))
-
-# While迴圈n*n乘法
-#-*-coding:UTF-8 -*-
-N_multiplied_N = int(input('while迴圈請輸入小於10的數字:'))
-if N_multiplied_N < 10:
-    i=0
-    while i < N_multiplied_N:
-        i = i + 1
-        j=0
-        while j < N_multiplied_N:
-            j = j + 1
-        #print(i)
-            print(i,'*',j,'=',i*j)
-N_multiplied_N_while = int(input('STOP'))
-'''
-#-*-coding:UTF-8 -*-
 # 字串作業練習 EX03_hw.py
 #
 # 條件1: 若有符合的字串，將其索引值印出 (全部印出， 並非印出第一個符合的索引值)
@@ -56,4 +31,42 @@ Apple Watch 的銷售均價為 499 美元，據此估算 Apple Watch 在 2015 �
 也就是說 Apple Watch 已經開始有庫存，對於一款上市 3 個月的新品而言，這不是一個好消息。'''
 
 find_str = input('請輸入要找的字:')
+index_find_str=text.find(find_str)
+count_find_str=text.count(find_str)
+#print(index_find_str)
 
+
+index = 1
+num_find_str = index_find_str + 1
+for index in range(count_find_str -1):
+           
+           num_find_str2 = text.find(find_str,num_find_str)
+           num_find_str = num_find_str2 + 1
+           #num_find_str2 = num_find_str2 + 1
+           #num_find_str3 = text.find(find_str,num_find_str2)
+           print("---------------------")
+           print("記憶體位置在：",num_find_str2)
+           print("---------------------")
+           #print("num_find_str2",num_find_str2)
+
+           #print("num_find_str3",num_find_str3)
+print("總共有：", count_find_str,"個",find_str)
+print('總共有{0}個"{1}"'.format(count_find_str,find_str))
+
+'''
+i=0
+j=text.find('。',-1)
+while i < j:
+           
+                      i =text.find(find_str,i)
+                     
+                      if i == -1:
+                                 break
+                      print(i)
+                      i = i + 1
+                   
+'''
+           #print(i)
+           
+           
+                      

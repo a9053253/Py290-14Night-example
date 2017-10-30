@@ -1,4 +1,4 @@
-# Py290-14Night-example
+﻿# Py290-14Night-example
 
 Python@NTU
 
@@ -32,3 +32,5 @@ pip install autopep8  #安裝格式化工具
 alt+P 還原上一步指令
 
 字串不可變原則，而是由其他空間複製一份重新更改
+
+strip()內部值無順序關係，皆為獨立刪除值。
