@@ -22,14 +22,16 @@ class student:
         self.name = n
         self.gender = g
         self.grades = []
+#apend
 
     def add(self,grade):
+self.grades.append(grade)
         #do something.
 
     def avg(self):
         #do something.
         #return avg_grade
-
+pass
     def fcount(self):
         #do something.
         #return fail_count
