@@ -34,3 +34,6 @@ alt+P 還原上一步指令
 字串不可變原則，而是由其他空間複製一份重新更改
 
 strip()內部值無順序關係，皆為獨立刪除值。
+
+字典檔操作參考網址
+http://blog.csdn.net/yima1006/article/details/7430323
