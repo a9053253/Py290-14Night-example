@@ -8,7 +8,11 @@ while true :
                     print("OS error: {0}".format(err))
                 else:
                         break
-
+                finally:
+                    pass
+            num1 = input('輸入第1組數字')
+            num2 = input('輸入第2組數字')
+            num_division(num1,num2)
 '''
 import sys
 try:
