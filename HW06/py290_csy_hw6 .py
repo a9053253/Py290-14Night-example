@@ -7,7 +7,7 @@ for line in file.readlines():
 
     line2= line.split(',')
     print(line2[0],line2[3],line2[5],line2[6])
-    line3=str(line2[0]+line2[3]+line2[5]+line2[6]+'\n')
+    line3=str(line2[0]+';'+line2[3]+';'+line2[5]+';'+line2[6]+';'+'\n')
     file2.write(line3)
     #print(line2)
 file.close()
